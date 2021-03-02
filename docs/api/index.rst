@@ -3,12 +3,12 @@
 API Reference
 =============
 
-.. automodule:: proglearn
+.. automodule:: proglearn.progressive_learner
 
-.. currentmodule:: proglearn
+.. currentmodule:: proglearn.progressive_learner
 
 Progressive_Learner
----------------------------------------
+-------------
 
 .. autosummary::
    :toctree: generated/
@@ -31,7 +31,23 @@ Voters
    KNNClassificationVoter
 
 
+.. automodule:: proglearn.base
 
+.. currentmodule:: proglearn.base
+
+Base
+-------------
+
+.. autosummary::
+   :toctree: generated/
+
+   BaseTransformer
+   BaseVoter
+   BaseClassificationVoter
+   BaseDecider
+   BaseClassificationDecider
+   BaseProgressiveLearner
+   BaseClassificationProgressiveLearner
 
 
 
@@ -91,28 +107,35 @@ Transformers
    TreeClassificationTransformer
 
 
-.. automodule:: proglearn.sims
+.. automodule:: proglearn.sims.gaussian_sim
 
-.. currentmodule:: proglearn.sim
-
-Simulations
--------------
+.. currentmodule:: proglearn.sims.gaussian_sim
 
 Gaussian Simulations
-""""""""""""""""""""""""
+-------------
+
 
 .. autosummary::
    :toctree: generated/
 
    generate_gaussian_parity
-   _generate_2d_rotation 
+
+
+
+.. automodule:: proglearn.sims.spiral_sim
+
+.. currentmodule:: proglearn.sims.spiral_sim
 
 Spiral Simulations
-""""""""""""""""""""""""
+-------------
+
 
 .. autosummary::
    :toctree: generated/
 
    generate_spirals 
+
+
+
 
 
